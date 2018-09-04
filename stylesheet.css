@@ -1,0 +1,296 @@
+.text-w {
+  color: white;
+}
+
+.text-g {
+  color: #DADCDF;
+}
+
+body, html {
+  height: 100% !important;
+  margin: 0;
+}
+
+nav li {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+}
+
+nav.navbar {
+  margin: 0 !important;
+  background-color: rgb(225, 230, 239, 0.95);
+  border-color: rgb(225, 230, 239, 0.95);
+  border-radius: 0 !important;
+  position: fixed !important;
+  z-index: 100;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar.navbar-default {
+  min-height: 40px;
+}
+
+.nav > li > a {
+  padding: 10px 28px !important;
+}
+
+.nav.navbar-nav li.active a {
+  background-color: #e8edf4;
+  color: #102a56;
+  font-weight: 1000;
+}
+
+.nav.navbar-nav li.active a:hover {
+  background-color: #e8edf4;
+}
+
+.navbar .nav.navbar-nav li a:hover {
+  color: #42c7d6;
+}
+
+#down {
+  color: #e1e6ef;
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transition: color 0.7s ease-out;
+  -moz-transition: color 0.7s ease-out;
+  -o-transition: color 0.7s ease-out;
+  transition: color 0.7s ease-out;
+}
+
+#down .fas.fa-chevron-circle-down.fa-3x:hover {
+  color: #4881d6;
+  -webkit-transition: color 0.7s ease-out;
+  -moz-transition: color 0.7s ease-out;
+  -o-transition: color 0.7s ease-out;
+  transition: color 0.7s ease-out;
+}
+
+.header-container {
+  background-image: url("img/tl.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+p.title {
+  font-family: "Racing Sans One", cursive;
+  color: #e1e6ef;
+  letter-spacing: 1vw;
+  font-size: 11vw;
+  margin-top: 2%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+p.year {
+  font-family: "Racing Sans One", cursive;
+  color: #e1e6ef;
+  letter-spacing: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+  margin-top: 0;
+}
+
+.bg-light {
+  background-color: #354050;
+  width: 100%;
+}
+
+.clearfix::after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  margin: 3% 0;
+}
+
+
+#about .row:first-child {
+  border-bottom: 1px solid white;
+}
+
+#about span {
+  color: #42c7d6;
+}
+
+#about .container .row:first-child {
+  margin: 4% 5% 0 5%;
+  padding-bottom: 2%;
+}
+
+#about .container .row:nth-child(2) {
+  margin: 1% 5% 4% 5%;
+}
+
+.container .row {
+  margin: 4% 5%;
+}
+
+#coords .row:first-child {
+  margin: 4% 5% 1% 5%;
+}
+
+#coords .row.coord-wrap {
+  margin: 0 7% 5% 7%;
+}
+
+.row .col-sm-6 {
+  padding: 15px;
+}
+
+#media iframe {
+  max-width: 100%;
+}
+
+#media .row:first-child {
+  margin-bottom: 0;
+}
+
+#media .row:nth-child(2) {
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+#media .row:nth-child(3) {
+  margin-top: 2%;
+}
+
+.row .col-sm-6 {
+  padding: 10px 25px;
+}
+
+.row .big-desc {
+  padding: 10px 15px;
+}
+
+#coords .coord-wrap .coord-desc {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  width: 100%;
+  background-color: #334358;
+  opacity: 0.8;
+  box-sizing: border-box;
+}
+
+#coords .coord-wrap .coord-desc:hover {
+  opacity: 0.95;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+h1.text-w {
+  padding: 0 15px;
+  font-family: Source Sans Pro;
+  font-size: 2.75em;
+}
+
+body {
+  background-color: #1C2537 !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "PT Sans" !important;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#media a, #media a:visited, nav a, nav a:hover, #about a, #contact a {
+  color: #4881d6;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#media a:hover, nav a:hover, #about a:hover, #contact a:hover {
+  color: #42c7d6;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+.profile-image {
+  position: relative;
+  height: 0;
+  padding-bottom: 125%;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.profile-image:hover .overlay {
+  width: 100%;
+  opacity: 0.8;
+}
+
+.text-desc {
+  color: #FFFFFF;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.social {
+  font-size: 30px;
+}
+
+.social ul {
+  text-align: center;
+  list-style: none outside;
+}
+
+.social li {
+  text-align: center;
+  display: inline-block;
+  margin: 0 18px 0 18px;
+  border-radius: 100%;
+}
